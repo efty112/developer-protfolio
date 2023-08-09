@@ -22,6 +22,7 @@ nav{
     color: #181818;
     font-size: 45px;
     font-weight: 800;
+    padding: 0px 0px 0px 226px;
 }
 .r{
     font-size: 45px;
@@ -30,12 +31,19 @@ nav{
 nav >ul {
     display: flex;
     align-items: center;
+    padding: 0px 265px 0px 0px;
 }
 nav li{
     list-style: none;
     margin-right: 51px;
+    
 }
 nav a{
     text-decoration: none;
     color: #474747;
+}
+
+/* header related styles */
+.header{
+    background-color: #FFF8F3;
 }
